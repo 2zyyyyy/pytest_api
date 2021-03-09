@@ -1,8 +1,9 @@
 import pytest
 import requests
 from Untils.commonlib import get_test_data
+import pprint
 
-cases, list_params = get_test_data("/Users/Tony/PycharmProjects/pytest_api/Data/test_in_theaters.yaml")
+cases, list_params = get_test_data("/Users/gilbert/PycharmProjects/pytest_api/Data/test_in_theaters.yaml")
 
 
 @pytest.fixture(scope='session')
@@ -22,6 +23,7 @@ class TestInTheaters(object):
                                headers=http['headers'],
                                params=http['params'])
         response = res.json()
+        pprint.pprint(response)
         assert response['count'] == expected['response']['count']
         assert response['start'] == expected['response']['start']
         assert response['title'] == expected['response']['title'], "实际的标题是：{}".format(response['title'])
