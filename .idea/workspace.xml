@@ -16,15 +16,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f58d1cb5-5d83-4f86-be4d-a455d3fd9d6b" name="Default Changelist" comment="新增测试用例文件及yaml格式测试数据">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pytest_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytest_api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_in_theaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_in_theaters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager" selected="Python tests.pytest in pytest_api">
     <configuration name="test_in_theaters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -132,6 +135,8 @@
       <workItem from="1604373554717" duration="488000" />
       <workItem from="1604545164429" duration="3496000" />
       <workItem from="1606472808593" duration="65000" />
+      <workItem from="1615275556450" duration="183000" />
+      <workItem from="1615790326585" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="新增测试用例文件及yaml格式测试数据">
       <created>1590567769850</created>
@@ -167,7 +172,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -177,44 +194,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增测试用例文件及yaml格式测试数据" />
     <option name="LAST_COMMIT_MESSAGE" value="新增测试用例文件及yaml格式测试数据" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604547591994">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1604547591994" />
-    <state x="457" y="271" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604547579727">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="457" y="271" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1604547579727" />
-    <state width="1398" height="408" key="GridCell.Tab.0.bottom" timestamp="1604554592284">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="408" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604554592284" />
-    <state width="1398" height="408" key="GridCell.Tab.0.center" timestamp="1604554592283">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="408" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604554592283" />
-    <state width="1398" height="408" key="GridCell.Tab.0.left" timestamp="1604554592282">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="408" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604554592282" />
-    <state width="1398" height="408" key="GridCell.Tab.0.right" timestamp="1604554592284">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="408" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604554592284" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1604554492346">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-268.-1080.1920.1080@0.0.1440.900" timestamp="1597806878570" />
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604554492346" />
-    <state x="292" y="-800" key="Vcs.Push.Dialog.v2" timestamp="1604373828392">
-      <screen x="-268" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="292" y="-800" key="Vcs.Push.Dialog.v2/0.0.1440.900/-268.-1080.1920.1080@-268.-1080.1920.1080" timestamp="1604373828392" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pytest_api$test_in_theaters.coverage" NAME="test_in_theaters Coverage Results" MODIFIED="1604545496664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
-    <SUITE FILE_PATH="coverage/pytest_api$pytest_in_pytest_api.coverage" NAME="pytest in pytest_api Coverage Results" MODIFIED="1604546817481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
