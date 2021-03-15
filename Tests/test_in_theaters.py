@@ -7,7 +7,7 @@ cases, list_params = get_test_data("/Users/gilbert/PycharmProjects/pytest_api/Da
 
 
 @pytest.fixture(scope='session')
-def preparation(self):
+def preparation():
     print("在数据库中准备测试数据")
     test_data = "在数据库中准备测试数据"
     yield test_data
@@ -24,6 +24,6 @@ class TestInTheaters(object):
                                params=http['params'])
         response = res.json()
         pprint.pprint(response)
-        assert response['count'] == expected['response']['count']
-        assert response['start'] == expected['response']['start']
-        assert response['title'] == expected['response']['title'], "实际的标题是：{}".format(response['title'])
+        assert response['data'][0]['url'] == expected['response']['url']
+        assert response['data'][0]['rate'] == expected['response']['rate']
+        assert response['data'][0]['title'] == expected['response']['title'], "实际的电影是：{}".format(response['title'])
