@@ -1,17 +1,16 @@
 ---
 tests:
 # case 测试用例名称
-- case: 验证响应中title和rate与请求中的参数一致
+- case: 验证响应中title和language与预期结果一致
   http: # 请求对象
     method: GET
-    path: /j/new_search_subjects/
+    path: /api/items/soft
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
     params:
-      tags: 电影
-      sort: T
+      offset: 20
+      limit: 2
   expected: # 预期结果
     response:
-      rate: '9.0'
-      title: 我不是药神
-      url: https://movie.douban.com/subject/26752088/
+      language: en
+      title: Bootstrap Studio

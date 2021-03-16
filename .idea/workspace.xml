@@ -27,13 +27,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f58d1cb5-5d83-4f86-be4d-a455d3fd9d6b" name="Default Changelist" comment="新增测试用例文件及yaml格式测试数据">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pytest_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytest_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Douban/test_in_theaters.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Macwk/test_in_macsofts.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Douban/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Macwk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Macwk/test_in_macsofts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/test/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Config/test/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/test_in_theaters.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Data/test_in_theaters.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_in_theaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_in_theaters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/test_in_theaters.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_in_theaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Douban/test_in_theaters.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +65,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tests/Macwk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests/Macwk" />
+      <recent name="$PROJECT_DIR$/Data/Macwk" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests/douban" />
+      <recent name="$PROJECT_DIR$/Data/douban" />
+    </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest in pytest_api">
     <configuration name="test_in_theaters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -81,7 +95,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/test_in_theaters.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/douban/test_in_theaters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,6 +187,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
