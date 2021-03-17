@@ -8,14 +8,6 @@ path = sys.path[0] + "/Data/Macwk/test_in_macsofts.yaml"
 cases, list_params = get_test_data(path)
 
 
-@pytest.fixture(scope='session')
-def preparation():
-    print("在数据库中准备测试数据")
-    test_data = "在数据库中准备测试数据"
-    yield test_data
-    print("清理测试数据")
-
-
 class TestInMacsofts(object):
 
     @pytest.mark.parametrize('case, http, expected', list(list_params), ids=cases)

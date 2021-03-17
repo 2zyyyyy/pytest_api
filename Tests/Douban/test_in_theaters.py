@@ -8,12 +8,13 @@ path = sys.path[0] + "/Data/Douban/test_in_theaters.yaml"
 cases, list_params = get_test_data(path)
 
 
-@pytest.fixture(scope='session')
-def preparation():
-    print("在数据库中准备测试数据")
-    test_data = "在数据库中准备测试数据"
-    yield test_data
-    print("清理测试数据")
+# @pytest.fixture(scope='function')
+# 模拟一个准备和清理测试数据的 fixture 函数 preparation，scope 设置为 function
+# def preparation():
+#     print("在数据库中准备测试数据")
+#     test_data = "在数据库中准备测试数据"
+#     yield test_data
+#     print("清理测试数据")
 
 
 class TestInTheaters(object):
