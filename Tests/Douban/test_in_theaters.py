@@ -1,8 +1,8 @@
 import pytest
 import requests
 from Untils.commonlib import get_test_data
-import pprint
 import sys
+import logging
 
 path = sys.path[0] + "/Data/Douban/test_in_theaters.yaml"
 cases, list_params = get_test_data(path)
@@ -26,7 +26,7 @@ class TestInTheaters(object):
                                headers=http['headers'],
                                params=http['params'])
         response = res.json()
-        pprint.pprint(response)
+        logging.info(response)
         assert response['data'][0]['url'] == expected['response']['url']
         assert response['data'][0]['rate'] == expected['response']['rate']
         assert response['data'][0]['title'] == expected['response']['title'], \

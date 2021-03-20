@@ -27,14 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f58d1cb5-5d83-4f86-be4d-a455d3fd9d6b" name="Default Changelist" comment="新增测试用例文件及yaml格式测试数据">
-      <change afterPath="$PROJECT_DIR$/Tests/test_marks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/test/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Config/test/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Douban/test_in_theaters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Douban/test_in_theaters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Macwk/test_in_macsofts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Macwk/test_in_macsofts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_marks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_marks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,9 +161,9 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_in_theaters" />
-      <item itemvalue="Python tests.pytest in pytest_api" />
       <item itemvalue="Python.test_in_theaters (1)" />
       <item itemvalue="Python.test_in_macsofts" />
+      <item itemvalue="Python tests.pytest in pytest_api" />
     </list>
     <recent_temporary>
       <list>

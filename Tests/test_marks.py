@@ -10,7 +10,7 @@ import pytest
 
 
 class TestMarks(object):
-    # 自定义标签,运行时可以通过 -过滤或者反过滤 py.test -m "tag" or "not tag" 允许会有警告 需要到pytest.ini文件注册标签
+    # 自定义标签,运行时可以通过-m 标签名称过滤或者反过滤 py.test -m "tag" or "not tag" 运行会有警告 需要到pytest.ini文件注册标签
     @pytest.mark.tag
     def test_tag(self):
         """
