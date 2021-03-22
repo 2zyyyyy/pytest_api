@@ -1,0 +1,121 @@
+{
+  "uid" : "262594685e1bfa10",
+  "name" : "test_tag",
+  "fullName" : "Tests.MarkDemo.test_marks.TestMarks#test_tag",
+  "historyId" : "bc809ddd2de0a0e609367e38c4827187",
+  "time" : {
+    "start" : 1616410505765,
+    "stop" : 1616410505765,
+    "duration" : 0
+  },
+  "description" : "\n        自定义标签：tag\n        ",
+  "descriptionHtml" : "<pre><code>    自定义标签：tag\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "testcase_setup_teardown",
+    "time" : {
+      "start" : 1616410505764,
+      "stop" : 1616410505764,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "testsuite_setup_teardown",
+    "time" : {
+      "start" : 1616410504408,
+      "stop" : 1616410504408,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "testcase_setup_teardown::0",
+    "time" : {
+      "start" : 1616410505766,
+      "stop" : 1616410505766,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "testsuite_setup_teardown::0",
+    "time" : {
+      "start" : 1616410505870,
+      "stop" : 1616410505871,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "tag"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests.MarkDemo"
+  }, {
+    "name" : "suite",
+    "value" : "test_marks"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMarks"
+  }, {
+    "name" : "host",
+    "value" : "gilbertdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "52161-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.MarkDemo.test_marks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "tag" ]
+  },
+  "source" : "262594685e1bfa10.json",
+  "parameterValues" : [ ]
+}

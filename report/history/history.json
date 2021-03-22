@@ -1,0 +1,177 @@
+{
+  "530ef710edb5fab347d2a4c516767d44" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6244d9754bb7bda4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616410505756,
+        "stop" : 1616410505756,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d94cb9ed8367aea42c5919696bb53da7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6110ebdcfd0a631",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616410504411,
+        "stop" : 1616410504996,
+        "duration" : 585
+      }
+    } ]
+  },
+  "bc809ddd2de0a0e609367e38c4827187" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "262594685e1bfa10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616410505765,
+        "stop" : 1616410505765,
+        "duration" : 0
+      }
+    } ]
+  },
+  "10fc795f3e5a571a3cc5746488bae453" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca8ed0bae0a571b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616410505772,
+        "stop" : 1616410505772,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4b67fa300d952a4b871b27f3d9780e0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ee87e8317f7c6e7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过本次执行",
+      "time" : {
+        "start" : 1616410505759,
+        "stop" : 1616410505759,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3c67740afa22ed4938c21f8f2055e3c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de97f9a9c0ebaa94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616410505004,
+        "stop" : 1616410505392,
+        "duration" : 388
+      }
+    } ]
+  },
+  "f00e4caa8290014cd05802b8746101ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96c871ddd726ecab",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: not implementation",
+      "time" : {
+        "start" : 1616410505768,
+        "stop" : 1616410505768,
+        "duration" : 0
+      }
+    } ]
+  },
+  "11d576a43275b207e48a279c611911db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "122ce1d5eccb09d",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL reason: [NOTRUN] \n\n_pytest.outcomes.XFailed: [NOTRUN]",
+      "time" : {
+        "start" : 1616410505835,
+        "stop" : 1616410505835,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4b1032b5ae3cf8de3f092441142afaef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8999ccc3de53e2ee",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert 0",
+      "time" : {
+        "start" : 1616410505776,
+        "stop" : 1616410505776,
+        "duration" : 0
+      }
+    } ]
+  }
+}

@@ -1,0 +1,91 @@
+[ {
+  "uid" : "122ce1d5eccb09d",
+  "name" : "test_xfail_not_run",
+  "time" : {
+    "start" : 1616410505835,
+    "stop" : 1616410505835,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "262594685e1bfa10",
+  "name" : "test_tag",
+  "time" : {
+    "start" : 1616410505765,
+    "stop" : 1616410505765,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ee87e8317f7c6e7",
+  "name" : "test_download",
+  "time" : {
+    "start" : 1616410505759,
+    "stop" : 1616410505759,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6244d9754bb7bda4",
+  "name" : "test_macsofts_details",
+  "time" : {
+    "start" : 1616410505756,
+    "stop" : 1616410505756,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6110ebdcfd0a631",
+  "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
+  "time" : {
+    "start" : 1616410504411,
+    "stop" : 1616410504996,
+    "duration" : 585
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "de97f9a9c0ebaa94",
+  "name" : "test_in_theaters[验证响应中第一条数据的title是\"二十二\"]",
+  "time" : {
+    "start" : 1616410505004,
+    "stop" : 1616410505392,
+    "duration" : 388
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "96c871ddd726ecab",
+  "name" : "test_the_unknow",
+  "time" : {
+    "start" : 1616410505768,
+    "stop" : 1616410505768,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8999ccc3de53e2ee",
+  "name" : "test_xfail",
+  "time" : {
+    "start" : 1616410505776,
+    "stop" : 1616410505776,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ca8ed0bae0a571b9",
+  "name" : "test_skipif",
+  "time" : {
+    "start" : 1616410505772,
+    "stop" : 1616410505772,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

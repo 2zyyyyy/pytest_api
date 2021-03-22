@@ -1,0 +1,122 @@
+{
+  "uid" : "6244d9754bb7bda4",
+  "name" : "test_macsofts_details",
+  "fullName" : "Tests.Macwk.test_in_macsofts.TestInMacsofts#test_macsofts_details",
+  "historyId" : "530ef710edb5fab347d2a4c516767d44",
+  "time" : {
+    "start" : 1616410505756,
+    "stop" : 1616410505756,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "testcase_setup_teardown",
+    "time" : {
+      "start" : 1616410505755,
+      "stop" : 1616410505755,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "testsuite_setup_teardown",
+    "time" : {
+      "start" : 1616410504408,
+      "stop" : 1616410504408,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "testcase_setup_teardown::0",
+    "time" : {
+      "start" : 1616410505756,
+      "stop" : 1616410505756,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "testsuite_setup_teardown::0",
+    "time" : {
+      "start" : 1616410505870,
+      "stop" : 1616410505871,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Mac软件商店"
+  }, {
+    "name" : "story",
+    "value" : "商店详情接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests.Macwk"
+  }, {
+    "name" : "suite",
+    "value" : "test_in_macsofts"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInMacsofts"
+  }, {
+    "name" : "host",
+    "value" : "gilbertdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "52161-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.Macwk.test_in_macsofts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6244d9754bb7bda4.json",
+  "parameterValues" : [ ]
+}

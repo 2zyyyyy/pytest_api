@@ -1,0 +1,26 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "a75539f633fdd544580f8ea12e23b63f",
+    "name" : "Mac软件商店",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "d8722ca799f1ac22d739d7498deb7b6c",
+    "name" : "豆瓣",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

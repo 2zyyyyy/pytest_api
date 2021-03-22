@@ -1,0 +1,22 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Mon Mar 22 18:55:05 CST 2021","Mon Mar 22 18:55:05 CST 2021","0","Tests.MarkDemo","test_marks","TestMarks","","","test_xfail_not_run","
+        run=False表示这条用例不执行
+        "
+"passed","Mon Mar 22 18:55:05 CST 2021","Mon Mar 22 18:55:05 CST 2021","0","Tests.MarkDemo","test_marks","TestMarks","","","test_tag","
+        自定义标签：tag
+        "
+"skipped","Mon Mar 22 18:55:05 CST 2021","Mon Mar 22 18:55:05 CST 2021","0","Tests.Macwk","test_in_macsofts","TestInMacsofts","","","test_download",""
+"passed","Mon Mar 22 18:55:05 CST 2021","Mon Mar 22 18:55:05 CST 2021","0","Tests.Macwk","test_in_macsofts","TestInMacsofts","","","test_macsofts_details",""
+"passed","Mon Mar 22 18:55:04 CST 2021","Mon Mar 22 18:55:04 CST 2021","585","Tests.Douban","test_in_theaters","TestInTheaters","","","test_in_theaters[验证响应中title和rate与请求中的参数一致]",""
+"passed","Mon Mar 22 18:55:05 CST 2021","Mon Mar 22 18:55:05 CST 2021","388","Tests.Douban","test_in_theaters","TestInTheaters","","","test_in_theaters[验证响应中第一条数据的title是""二十二""]",""
+"skipped","Mon Mar 22 18:55:05 CST 2021","Mon Mar 22 18:55:05 CST 2021","0","Tests.MarkDemo","test_marks","TestMarks","","","test_the_unknow","
+        跳过不执行，逻辑暂未实现
+        "
+"skipped","Mon Mar 22 18:55:05 CST 2021","Mon Mar 22 18:55:05 CST 2021","0","Tests.MarkDemo","test_marks","TestMarks","","","test_xfail","
+        Indicate that you expect it to fail
+        这条用例失败时，测试结果被标记为xfail（expected to fail），并且不打印错误信息。
+        这条用例执行成功时，测试结果被标记为xpassed（unexpectedly passing）
+        "
+"passed","Mon Mar 22 18:55:05 CST 2021","Mon Mar 22 18:55:05 CST 2021","0","Tests.MarkDemo","test_marks","TestMarks","","","test_skipif","
+        低于Python3.7版本不执行这条测试用例
+        "
