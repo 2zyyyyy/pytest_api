@@ -1,0 +1,207 @@
+{
+  "uid" : "fd93b4fb71b82eed",
+  "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
+  "fullName" : "Tests.Macwk.test_in_macsofts.TestInMacsofts#test_in_macsofts",
+  "historyId" : "f82b9e8f01bf8484468c106ead8b0c16",
+  "time" : {
+    "start" : 1616416430741,
+    "stop" : 1616416431021,
+    "duration" : 280
+  },
+  "description" : "\n        描述信息\n        :param env:环境\n        :param case:测试用例\n        :param http:接口请求地址\n        :param expected:期望结果\n        :return:pass\n        ",
+  "descriptionHtml" : "<pre><code>    描述信息\n    :param env:环境\n    :param case:测试用例\n    :param http:接口请求地址\n    :param expected:期望结果\n    :return:pass\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "env",
+    "time" : {
+      "start" : 1616416429972,
+      "stop" : 1616416429972,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        描述信息\n        :param env:环境\n        :param case:测试用例\n        :param http:接口请求地址\n        :param expected:期望结果\n        :return:pass\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login",
+      "time" : {
+        "start" : 1616416430741,
+        "stop" : 1616416430741,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "usr",
+        "value" : "'wanli'"
+      }, {
+        "name" : "pwd",
+        "value" : "'dingtax.cn'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "准备发起请求",
+      "time" : {
+        "start" : 1616416430741,
+        "stop" : 1616416430742,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a150139aa9ad5d",
+        "name" : "1358f05a-4692-4cef-a9da-c1971b9da5e0-attachment.attach",
+        "source" : "3a150139aa9ad5d.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "cbe219f86fa2d9dc",
+        "name" : "/api/items/soft",
+        "source" : "cbe219f86fa2d9dc.attach",
+        "type" : "text/plain",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "装载数据,发起请求",
+      "time" : {
+        "start" : 1616416430742,
+        "stop" : 1616416431018,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取返回结果",
+      "time" : {
+        "start" : 1616416431018,
+        "stop" : 1616416431018,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1616416431021,
+        "stop" : 1616416431021,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f9f4dc3ec6978f70",
+      "name" : "aa8cf70b-7188-442b-9400-f5a7b11416ca-attachment.attach",
+      "source" : "f9f4dc3ec6978f70.attach",
+      "type" : "text/plain",
+      "size" : 27
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Mac软件商店"
+  }, {
+    "name" : "story",
+    "value" : "Mac商店应用查询接口测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests.Macwk"
+  }, {
+    "name" : "suite",
+    "value" : "test_in_macsofts"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInMacsofts"
+  }, {
+    "name" : "host",
+    "value" : "gilbertdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "58631-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.Macwk.test_in_macsofts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "'验证响应中title和language与预期结果一致'"
+  }, {
+    "name" : "expected",
+    "value" : "{'response': {'language': 'en', 'title': 'Bootstrap Studio'}}"
+  }, {
+    "name" : "http",
+    "value" : "{'method': 'GET', 'path': '/api/items/soft', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'offset': 20, 'limit': 2}}"
+  } ],
+  "links" : [ {
+    "name" : "www.testcase.com",
+    "url" : "www.testcase.com",
+    "type" : "test_case"
+  }, {
+    "name" : "搜索",
+    "url" : "www.google.com",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd93b4fb71b82eed.json",
+  "parameterValues" : [ "'验证响应中title和language与预期结果一致'", "{'response': {'language': 'en', 'title': 'Bootstrap Studio'}}", "{'method': 'GET', 'path': '/api/items/soft', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'offset': 20, 'limit': 2}}" ]
+}

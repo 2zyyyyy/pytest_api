@@ -1,5 +1,6 @@
 import sys
 import pytest
+import allure
 
 """
 标记与分组
@@ -9,6 +10,7 @@ import pytest
 """
 
 
+@allure.feature("pytest标记与分组")
 class TestMarks(object):
     # 自定义标签,运行时可以通过-m 标签名称过滤或者反过滤 py.test -m "tag" or "not tag" 运行会有警告 需要到pytest.ini文件注册标签
     @pytest.mark.tag
@@ -16,7 +18,7 @@ class TestMarks(object):
         """
         自定义标签：tag
         """
-        assert 1
+        assert 0
 
     @pytest.mark.skip(reason="not implementation")
     def test_the_unknow(self):

@@ -1,0 +1,57 @@
+{
+  "uid" : "16dd95cc994a1fd0",
+  "name" : "test_macsofts_details",
+  "fullName" : "Tests.Macwk.test_in_macsofts#test_macsofts_details",
+  "historyId" : "dfd2d5b107357dc5ade5a39e9bd872c0",
+  "time" : {
+    "start" : 1616416431027,
+    "stop" : 1616416431027,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "商店详情接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests.Macwk"
+  }, {
+    "name" : "suite",
+    "value" : "test_in_macsofts"
+  }, {
+    "name" : "host",
+    "value" : "gilbertdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "58631-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.Macwk.test_in_macsofts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16dd95cc994a1fd0.json",
+  "parameterValues" : [ ]
+}

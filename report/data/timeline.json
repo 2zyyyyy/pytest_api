@@ -4,41 +4,67 @@
   "children" : [ {
     "name" : "gilbertdeMacBook-Pro.local",
     "children" : [ {
-      "name" : "52161-MainThread",
+      "name" : "59090-MainThread",
       "children" : [ {
-        "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
-        "uid" : "f6110ebdcfd0a631",
-        "parentUid" : "67d502d586f2be49d371b9e170ebf9e2",
-        "status" : "passed",
+        "name" : "test_the_unknow",
+        "uid" : "f32d22e86a7405dc",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
+        "status" : "skipped",
         "time" : {
-          "start" : 1616410504411,
-          "stop" : 1616410504996,
-          "duration" : 585
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'验证响应中title和rate与请求中的参数一致'", "{'response': {'rate': '9.0', 'title': '我不是药神', 'url': 'https://movie.douban.com/subject/26752088/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '电影', 'sort': 'T', 'limit': 2}}" ]
-      }, {
-        "name" : "test_macsofts_details",
-        "uid" : "6244d9754bb7bda4",
-        "parentUid" : "67d502d586f2be49d371b9e170ebf9e2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616410505756,
-          "stop" : 1616410505756,
+          "start" : 1616417751651,
+          "stop" : 1616417751651,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_skipif",
-        "uid" : "ca8ed0bae0a571b9",
-        "parentUid" : "67d502d586f2be49d371b9e170ebf9e2",
+        "name" : "test_download",
+        "uid" : "200973e9fad0f2af",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616417751584,
+          "stop" : 1616417751584,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
+        "uid" : "e5cd885042be7e75",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
         "status" : "passed",
         "time" : {
-          "start" : 1616410505772,
-          "stop" : 1616410505772,
+          "start" : 1616417750575,
+          "stop" : 1616417750981,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证响应中title和rate与请求中的参数一致'", "{'response': {'rate': '9.0', 'title': '我不是药神', 'url': 'https://movie.douban.com/subject/26752088/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '电影', 'sort': 'T', 'limit': 2}}" ]
+      }, {
+        "name" : "test_tag",
+        "uid" : "f072dca8f4ab72d2",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616417751590,
+          "stop" : 1616417751591,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skipif",
+        "uid" : "cc30251dfd6053e6",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616417751653,
+          "stop" : 1616417751653,
           "duration" : 0
         },
         "flaky" : false,
@@ -46,38 +72,12 @@
         "parameters" : [ ]
       }, {
         "name" : "test_xfail_not_run",
-        "uid" : "122ce1d5eccb09d",
-        "parentUid" : "67d502d586f2be49d371b9e170ebf9e2",
+        "uid" : "a9072c507df5fa3d",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
         "status" : "skipped",
         "time" : {
-          "start" : 1616410505835,
-          "stop" : 1616410505835,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_xfail",
-        "uid" : "8999ccc3de53e2ee",
-        "parentUid" : "67d502d586f2be49d371b9e170ebf9e2",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1616410505776,
-          "stop" : 1616410505776,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_tag",
-        "uid" : "262594685e1bfa10",
-        "parentUid" : "67d502d586f2be49d371b9e170ebf9e2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616410505765,
-          "stop" : 1616410505765,
+          "start" : 1616417751657,
+          "stop" : 1616417751657,
           "duration" : 0
         },
         "flaky" : false,
@@ -85,25 +85,107 @@
         "parameters" : [ ]
       }, {
         "name" : "test_in_theaters[验证响应中第一条数据的title是\"二十二\"]",
-        "uid" : "de97f9a9c0ebaa94",
-        "parentUid" : "67d502d586f2be49d371b9e170ebf9e2",
+        "uid" : "fbcb93b7f5489ea6",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
         "status" : "passed",
         "time" : {
-          "start" : 1616410505004,
-          "stop" : 1616410505392,
-          "duration" : 388
+          "start" : 1616417750987,
+          "stop" : 1616417751350,
+          "duration" : 363
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'验证响应中第一条数据的title是\"二十二\"'", "{'response': {'rate': '8.7', 'title': '二十二', 'url': 'https://movie.douban.com/subject/26430107/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '纪录片', 'sort': 'T', 'limit': 2}}" ]
       }, {
-        "name" : "test_download",
-        "uid" : "1ee87e8317f7c6e7",
-        "parentUid" : "67d502d586f2be49d371b9e170ebf9e2",
+        "name" : "test_xfail",
+        "uid" : "e270336c881db0ba",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
         "status" : "skipped",
         "time" : {
-          "start" : 1616410505759,
-          "stop" : 1616410505759,
+          "start" : 1616417751654,
+          "stop" : 1616417751654,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_macsofts_details",
+        "uid" : "12cb21a0c712d8ce",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616417751583,
+          "stop" : 1616417751583,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
+        "uid" : "54b09bdf078a6e98",
+        "parentUid" : "db58bc4896c6303b0ceeed8bb125a06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616417751356,
+          "stop" : 1616417751577,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证响应中title和language与预期结果一致'", "{'response': {'language': 'en', 'title': 'Bootstrap Studio'}}", "{'method': 'GET', 'path': '/api/items/soft', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'offset': 20, 'limit': 2}}" ]
+      } ],
+      "uid" : "db58bc4896c6303b0ceeed8bb125a06d"
+    }, {
+      "name" : "58631-MainThread",
+      "children" : [ {
+        "name" : "test_macsofts_details",
+        "uid" : "16dd95cc994a1fd0",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616416431027,
+          "stop" : 1616416431027,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
+        "uid" : "fd93b4fb71b82eed",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616416430741,
+          "stop" : 1616416431021,
+          "duration" : 280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证响应中title和language与预期结果一致'", "{'response': {'language': 'en', 'title': 'Bootstrap Studio'}}", "{'method': 'GET', 'path': '/api/items/soft', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'offset': 20, 'limit': 2}}" ]
+      }, {
+        "name" : "test_download",
+        "uid" : "4560890fa79726ac",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616416431028,
+          "stop" : 1616416431028,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xfail_not_run",
+        "uid" : "c549806279f88475",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616416431094,
+          "stop" : 1616416431094,
           "duration" : 0
         },
         "flaky" : false,
@@ -111,19 +193,84 @@
         "parameters" : [ ]
       }, {
         "name" : "test_the_unknow",
-        "uid" : "96c871ddd726ecab",
-        "parentUid" : "67d502d586f2be49d371b9e170ebf9e2",
+        "uid" : "1c3d12b0809e464a",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
         "status" : "skipped",
         "time" : {
-          "start" : 1616410505768,
-          "stop" : 1616410505768,
+          "start" : 1616416431034,
+          "stop" : 1616416431034,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "test_in_theaters[验证响应中第一条数据的title是\"二十二\"]",
+        "uid" : "d78bf5652ecab1f",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616416430395,
+          "stop" : 1616416430734,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证响应中第一条数据的title是\"二十二\"'", "{'response': {'rate': '8.7', 'title': '二十二', 'url': 'https://movie.douban.com/subject/26430107/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '纪录片', 'sort': 'T', 'limit': 2}}" ]
+      }, {
+        "name" : "test_xfail",
+        "uid" : "62fcbf1a7436452d",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616416431038,
+          "stop" : 1616416431039,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skipif",
+        "uid" : "552ff8e5d673dff4",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616416431037,
+          "stop" : 1616416431037,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tag",
+        "uid" : "935a8891367aae38",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616416431033,
+          "stop" : 1616416431033,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
+        "uid" : "2aa6c39776435541",
+        "parentUid" : "b039d3b263cebabe40922c5bf035e95e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616416429973,
+          "stop" : 1616416430388,
+          "duration" : 415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证响应中title和rate与请求中的参数一致'", "{'response': {'rate': '9.0', 'title': '我不是药神', 'url': 'https://movie.douban.com/subject/26752088/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '电影', 'sort': 'T', 'limit': 2}}" ]
       } ],
-      "uid" : "67d502d586f2be49d371b9e170ebf9e2"
+      "uid" : "b039d3b263cebabe40922c5bf035e95e"
     } ],
     "uid" : "9b1726522a78d3dfb3dd855a585eeea6"
   } ]

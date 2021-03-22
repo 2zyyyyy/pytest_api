@@ -2,141 +2,154 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "豆瓣",
-    "children" : [ {
-      "name" : "电影分类查询",
-      "children" : [ {
-        "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
-        "uid" : "f6110ebdcfd0a631",
-        "parentUid" : "f395569326041b62febdb79d562d6fde",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616410504411,
-          "stop" : 1616410504996,
-          "duration" : 585
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'验证响应中title和rate与请求中的参数一致'", "{'response': {'rate': '9.0', 'title': '我不是药神', 'url': 'https://movie.douban.com/subject/26752088/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '电影', 'sort': 'T', 'limit': 2}}" ]
-      }, {
-        "name" : "test_in_theaters[验证响应中第一条数据的title是\"二十二\"]",
-        "uid" : "de97f9a9c0ebaa94",
-        "parentUid" : "f395569326041b62febdb79d562d6fde",
-        "status" : "passed",
-        "time" : {
-          "start" : 1616410505004,
-          "stop" : 1616410505392,
-          "duration" : 388
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'验证响应中第一条数据的title是\"二十二\"'", "{'response': {'rate': '8.7', 'title': '二十二', 'url': 'https://movie.douban.com/subject/26430107/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '纪录片', 'sort': 'T', 'limit': 2}}" ]
-      } ],
-      "uid" : "f395569326041b62febdb79d562d6fde"
-    } ],
-    "uid" : "d8722ca799f1ac22d739d7498deb7b6c"
+    "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
+    "uid" : "e5cd885042be7e75",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616417750575,
+      "stop" : 1616417750981,
+      "duration" : 406
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'验证响应中title和rate与请求中的参数一致'", "{'response': {'rate': '9.0', 'title': '我不是药神', 'url': 'https://movie.douban.com/subject/26752088/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '电影', 'sort': 'T', 'limit': 2}}" ]
+  }, {
+    "name" : "test_in_theaters[验证响应中第一条数据的title是\"二十二\"]",
+    "uid" : "fbcb93b7f5489ea6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616417750987,
+      "stop" : 1616417751350,
+      "duration" : 363
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'验证响应中第一条数据的title是\"二十二\"'", "{'response': {'rate': '8.7', 'title': '二十二', 'url': 'https://movie.douban.com/subject/26430107/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '纪录片', 'sort': 'T', 'limit': 2}}" ]
   }, {
     "name" : "Mac软件商店",
     "children" : [ {
-      "name" : "商店详情接口测试",
+      "name" : "Mac商店应用查询接口测试",
       "children" : [ {
-        "name" : "test_macsofts_details",
-        "uid" : "6244d9754bb7bda4",
-        "parentUid" : "69cccd13b017027cd68848adb7f0ebd5",
+        "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
+        "uid" : "54b09bdf078a6e98",
+        "parentUid" : "ccef92e130f9316ff6a80645842f424e",
         "status" : "passed",
         "time" : {
-          "start" : 1616410505756,
-          "stop" : 1616410505756,
-          "duration" : 0
+          "start" : 1616417751356,
+          "stop" : 1616417751577,
+          "duration" : 221
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "'验证响应中title和language与预期结果一致'", "{'response': {'language': 'en', 'title': 'Bootstrap Studio'}}", "{'method': 'GET', 'path': '/api/items/soft', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'offset': 20, 'limit': 2}}" ]
       } ],
-      "uid" : "69cccd13b017027cd68848adb7f0ebd5"
-    }, {
-      "name" : "下载应用",
-      "children" : [ {
-        "name" : "test_download",
-        "uid" : "1ee87e8317f7c6e7",
-        "parentUid" : "a54d9a08c8f7b1d3ea062a391347eb21",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1616410505759,
-          "stop" : 1616410505759,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a54d9a08c8f7b1d3ea062a391347eb21"
+      "uid" : "ccef92e130f9316ff6a80645842f424e"
     } ],
     "uid" : "a75539f633fdd544580f8ea12e23b63f"
   }, {
-    "name" : "test_tag",
-    "uid" : "262594685e1bfa10",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1616410505765,
-      "stop" : 1616410505765,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
+    "name" : "商店详情接口测试",
+    "children" : [ {
+      "name" : "test_macsofts_details",
+      "uid" : "12cb21a0c712d8ce",
+      "parentUid" : "9982e7c0564ef70c481c907eb0894e7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616417751583,
+        "stop" : 1616417751583,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9982e7c0564ef70c481c907eb0894e7d"
   }, {
-    "name" : "test_the_unknow",
-    "uid" : "96c871ddd726ecab",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1616410505768,
-      "stop" : 1616410505768,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
+    "name" : "下载应用",
+    "children" : [ {
+      "name" : "test_download",
+      "uid" : "200973e9fad0f2af",
+      "parentUid" : "7371da94e8e9558031bfc8cc2dab7b1e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1616417751584,
+        "stop" : 1616417751584,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7371da94e8e9558031bfc8cc2dab7b1e"
   }, {
-    "name" : "test_skipif",
-    "uid" : "ca8ed0bae0a571b9",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1616410505772,
-      "stop" : 1616410505772,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_xfail",
-    "uid" : "8999ccc3de53e2ee",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1616410505776,
-      "stop" : 1616410505776,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_xfail_not_run",
-    "uid" : "122ce1d5eccb09d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1616410505835,
-      "stop" : 1616410505835,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
+    "name" : "pytest标记与分组",
+    "children" : [ {
+      "name" : "test_tag",
+      "uid" : "f072dca8f4ab72d2",
+      "parentUid" : "c215bd035789be90a0cf1d6f9799dee9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1616417751590,
+        "stop" : 1616417751591,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_the_unknow",
+      "uid" : "f32d22e86a7405dc",
+      "parentUid" : "c215bd035789be90a0cf1d6f9799dee9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1616417751651,
+        "stop" : 1616417751651,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_skipif",
+      "uid" : "cc30251dfd6053e6",
+      "parentUid" : "c215bd035789be90a0cf1d6f9799dee9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616417751653,
+        "stop" : 1616417751653,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_xfail",
+      "uid" : "e270336c881db0ba",
+      "parentUid" : "c215bd035789be90a0cf1d6f9799dee9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1616417751654,
+        "stop" : 1616417751654,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_xfail_not_run",
+      "uid" : "a9072c507df5fa3d",
+      "parentUid" : "c215bd035789be90a0cf1d6f9799dee9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1616417751657,
+        "stop" : 1616417751657,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c215bd035789be90a0cf1d6f9799dee9"
   } ]
 }
