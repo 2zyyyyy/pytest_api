@@ -1,0 +1,197 @@
+{
+  "d94cb9ed8367aea42c5919696bb53da7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "780e3177c19cde4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616492882938,
+        "stop" : 1616492883435,
+        "duration" : 497
+      }
+    } ]
+  },
+  "530ef710edb5fab347d2a4c516767d44" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "561add5d430a722a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616492884111,
+        "stop" : 1616492884111,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bc809ddd2de0a0e609367e38c4827187" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea924325f7569ed8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616492884117,
+        "stop" : 1616492884118,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a4878abb71f2d9924be2757a4999a6d3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "709bbbbcc27ed090",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '8.7' == '8.8'\n  - 8.8\n  + 8.7",
+      "time" : {
+        "start" : 1616492883441,
+        "stop" : 1616492883777,
+        "duration" : 336
+      }
+    } ]
+  },
+  "10fc795f3e5a571a3cc5746488bae453" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be2d2f6b98f579bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616492884122,
+        "stop" : 1616492884122,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4b67fa300d952a4b871b27f3d9780e0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e11456bacdbc7a27",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过本次执行",
+      "time" : {
+        "start" : 1616492884113,
+        "stop" : 1616492884113,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f82b9e8f01bf8484468c106ead8b0c16" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb65a5bc5b34c680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616492883834,
+        "stop" : 1616492884105,
+        "duration" : 271
+      }
+    } ]
+  },
+  "f00e4caa8290014cd05802b8746101ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58252791ccea2c22",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: not implementation",
+      "time" : {
+        "start" : 1616492884119,
+        "stop" : 1616492884119,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4b1032b5ae3cf8de3f092441142afaef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2bf3438525d28f6e",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: assert 0",
+      "time" : {
+        "start" : 1616492884124,
+        "stop" : 1616492884124,
+        "duration" : 0
+      }
+    } ]
+  },
+  "11d576a43275b207e48a279c611911db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a2a0496abca6982",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL reason: [NOTRUN] \n\n_pytest.outcomes.XFailed: [NOTRUN]",
+      "time" : {
+        "start" : 1616492884132,
+        "stop" : 1616492884132,
+        "duration" : 0
+      }
+    } ]
+  }
+}

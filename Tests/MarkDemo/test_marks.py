@@ -18,7 +18,7 @@ class TestMarks(object):
         """
         自定义标签：tag
         """
-        assert 0
+        assert 1
 
     @pytest.mark.skip(reason="not implementation")
     def test_the_unknow(self):

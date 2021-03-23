@@ -17,7 +17,7 @@ tests:
       title: 我不是药神
       url: https://movie.douban.com/subject/26752088/
 
-- case: 验证响应中第一条数据的title是"二十二"
+- case: 断言失败测试用例
   http: # 请求对象
     method: GET
     path: /j/new_search_subjects/
@@ -29,6 +29,6 @@ tests:
       limit: 2
   expected: # 预期结果
     response:
-      rate: '8.7'
+      rate: '8.8'
       title: 二十二
       url: https://movie.douban.com/subject/26430107/

@@ -1,0 +1,143 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "gilbertdeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "76950-MainThread",
+      "children" : [ {
+        "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
+        "uid" : "fb65a5bc5b34c680",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616492883834,
+          "stop" : 1616492884105,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证响应中title和language与预期结果一致'", "{'response': {'language': 'en', 'title': 'Bootstrap Studio'}}", "{'method': 'GET', 'path': '/api/items/soft', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'offset': 20, 'limit': 2}}" ]
+      }, {
+        "name" : "test_in_theaters[断言失败测试用例]",
+        "uid" : "709bbbbcc27ed090",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616492883441,
+          "stop" : 1616492883777,
+          "duration" : 336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'断言失败测试用例'", "{'response': {'rate': '8.8', 'title': '二十二', 'url': 'https://movie.douban.com/subject/26430107/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '纪录片', 'sort': 'T', 'limit': 2}}" ]
+      }, {
+        "name" : "test_download",
+        "uid" : "e11456bacdbc7a27",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616492884113,
+          "stop" : 1616492884113,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xfail",
+        "uid" : "2bf3438525d28f6e",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616492884124,
+          "stop" : 1616492884124,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xfail_not_run",
+        "uid" : "5a2a0496abca6982",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616492884132,
+          "stop" : 1616492884132,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tag",
+        "uid" : "ea924325f7569ed8",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616492884117,
+          "stop" : 1616492884118,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_the_unknow",
+        "uid" : "58252791ccea2c22",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616492884119,
+          "stop" : 1616492884119,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skipif",
+        "uid" : "be2d2f6b98f579bc",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616492884122,
+          "stop" : 1616492884122,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
+        "uid" : "780e3177c19cde4b",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616492882938,
+          "stop" : 1616492883435,
+          "duration" : 497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证响应中title和rate与请求中的参数一致'", "{'response': {'rate': '9.0', 'title': '我不是药神', 'url': 'https://movie.douban.com/subject/26752088/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '电影', 'sort': 'T', 'limit': 2}}" ]
+      }, {
+        "name" : "test_macsofts_details",
+        "uid" : "561add5d430a722a",
+        "parentUid" : "9fdc1f892242047a1cd3996ea8d57e12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616492884111,
+          "stop" : 1616492884111,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fdc1f892242047a1cd3996ea8d57e12"
+    } ],
+    "uid" : "9b1726522a78d3dfb3dd855a585eeea6"
+  } ]
+}

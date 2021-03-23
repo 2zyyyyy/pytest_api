@@ -1,0 +1,101 @@
+[ {
+  "uid" : "ea924325f7569ed8",
+  "name" : "test_tag",
+  "time" : {
+    "start" : 1616492884117,
+    "stop" : 1616492884118,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb65a5bc5b34c680",
+  "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
+  "time" : {
+    "start" : 1616492883834,
+    "stop" : 1616492884105,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bf3438525d28f6e",
+  "name" : "test_xfail",
+  "time" : {
+    "start" : 1616492884124,
+    "stop" : 1616492884124,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e11456bacdbc7a27",
+  "name" : "test_download",
+  "time" : {
+    "start" : 1616492884113,
+    "stop" : 1616492884113,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "561add5d430a722a",
+  "name" : "test_macsofts_details",
+  "time" : {
+    "start" : 1616492884111,
+    "stop" : 1616492884111,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "709bbbbcc27ed090",
+  "name" : "test_in_theaters[断言失败测试用例]",
+  "time" : {
+    "start" : 1616492883441,
+    "stop" : 1616492883777,
+    "duration" : 336
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "be2d2f6b98f579bc",
+  "name" : "test_skipif",
+  "time" : {
+    "start" : 1616492884122,
+    "stop" : 1616492884122,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a2a0496abca6982",
+  "name" : "test_xfail_not_run",
+  "time" : {
+    "start" : 1616492884132,
+    "stop" : 1616492884132,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "58252791ccea2c22",
+  "name" : "test_the_unknow",
+  "time" : {
+    "start" : 1616492884119,
+    "stop" : 1616492884119,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "780e3177c19cde4b",
+  "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
+  "time" : {
+    "start" : 1616492882938,
+    "stop" : 1616492883435,
+    "duration" : 497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
