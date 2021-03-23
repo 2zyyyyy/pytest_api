@@ -30,3 +30,9 @@ def env(request):
     with open(config_path) as f:
         env_config = yaml.load(f.read(), Loader=yaml.SafeLoader)
     return env_config
+
+
+# 生成environment.properties文件
+def pytest_sessionfinish(session):
+    with open("{}/Results/environment.properties".format(session.config.rootdir), "w") as f:
+        f.write("Browser=Chrome\nBrowser.Version=89.0.4389.90\nRemake=environment")

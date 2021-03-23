@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/Report/data/suites.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Tests/Macwk/test_in_macsofts.py">
           <value>
             <Attribute>

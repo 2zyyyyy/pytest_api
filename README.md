@@ -1,4 +1,4 @@
-Pytest使用allure生成测试报告
+## Pytest使用allure生成测试报告
 
 [TOC]
 
@@ -24,7 +24,6 @@ Pytest使用allure生成测试报告
 
 - Allure
   - macOS `$ brew install allure`
-
 - Allure-Pytest
   - Allure Pytest Plugin
     - `$ pip install allure-pytest`
@@ -48,7 +47,7 @@ Pytest使用allure生成测试报告
 ​	我们可以通过`$ py.test --collect-only`命令，查看Pytes收集到的测试用例
 
 ```shell
-=============================  test session starts ============================
+===============================  test session starts ==============================
 platform darwin -- Python 3.8.4, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
 rootdir: /Users/gilbert/PycharmProjects/pytest_api, inifile: pytest.ini
 plugins: allure-pytest-2.8.36
@@ -70,7 +69,7 @@ collected 8 items
   <Module test_in_macsofts.py>
     <Class TestInMacsofts>
         <Function test_in_macsofts[验证响应中title和language与预期结果一致]>
-============================= no tests ran in 0.19s ===========================
+============================= no tests ran in 0.19s ===============================
 ```
 
 #### 3.2 执行测试用例
@@ -133,7 +132,7 @@ class TestInMacsofts(object):
     @pytest.mark.parametrize('case, http, expected', list(list_params), ids=cases)
     def test_in_macsofts(self, env, case, http, expected):
         # 步骤1：调用step函数
-        login("wanli", "dingtax.cn")
+        login("username", "baidu.com")
         # 步骤2：step的参数打印在测试报告中
         with allure.step("准备发起请求"):
             allure.attach("attach可以打印一些附加信息~")
@@ -177,15 +176,23 @@ def login(usr, pwd):
 
 <center>表4-1 Allure常用特性</center>
 
-| 方法             | 说明                                                         |
-| ---------------- | ------------------------------------------------------------ |
-| @allure.feature  | 用于描述被测试产品需求                                       |
-| @allure.story    | 用于描述feature的用户场景，即测试需求                        |
-| @allure.Severity | 标记测试用例级别                                             |
-| with allure.setp | 用于描述测试步骤，将会输出到报告中（在测试方法中）           |
-| allure.attach    | 用于向测试报告中输入一些附加的信息，通常是一些测试数据，截图等 |
-| @allure.step     | 用于将一些通用的函数作为测试步骤输出到报告（测试方法或者测试类前使用装饰器使用），调用此函数的地方会向报告中输出步骤 |
-|                  |                                                              |
+| 方法                  | 说明                                                         |
+| --------------------- | ------------------------------------------------------------ |
+| @allure.feature()     | 用于描述被测试产品需求                                       |
+| @allure.story()       | 用于描述feature的用户场景，即测试需求                        |
+| @allure.Severity()    | 标记测试用例级别（详情见表4-2）                              |
+| with allure.setp      | 用于描述测试步骤，将会输出到报告中（在测试方法中）           |
+| allure.attach         | 用于向测试报告中输入一些附加的信息，通常是一些测试数据，截图等 |
+| @allure.step()        | 用于将一些通用的函数作为测试步骤输出到报告（测试方法或者测试类前使用装饰器使用）调用此函数的地方会向报告中输出步骤 |
+| @allure.suite()       | 测试（集）套件。不用报告默认显示py文件名                     |
+| @allure.epic()        | 敏捷里面的概念，定义史诗，往下是feature                      |
+| @allure.tag()         | 用于给用例打标记                                             |
+| @allure.title()       | 用例的标题,默认是函数名                                      |
+| @allure.testcase()    | 测试用例的链接地址                                           |
+| @allure.issue()       | 对应缺陷管理系统里面的链接                                   |
+| @allure.link()        | 链接                                                         |
+| @allure.description() | 测试用例的描述                                               |
+|                       |                                                              |
 
 <center>表4-2 Severity级别枚举</center>
 
@@ -259,7 +266,6 @@ Report successfully generated to report
 
 - results：步骤一的结果数据存放目录（json格式的测试结果数据）
 - report：将results的测试数据生成测试报告页面
-
 - clean目的是先清空测试报告的目录（./report/），在重新生成新的测试报告
 
 报告生成成功后，repost下面会生成对应的文件
@@ -281,31 +287,33 @@ drwxr-xr-x  16 gilbert  staff   512B  3 22 20:33 widgets
 
 ### 6、 解读测试报告
 
-![image-20210322205622026](/Users/gilbert/Library/Application Support/typora-user-images/image-20210322205622026.png)
+#### 6.1 首页（OverView）
+
+![image-20210322205622026](https://tva1.sinaimg.cn/large/008eGmZEly1gou46pfksxj31gr0qr424.jpg)
 
 ​	首页中展示了本次测试的测试用例数量，成功用例、失败用例、跳过用例的比例，测试环境，测试套（SUITES），特性场景（FEATURES BY STORIES）等基本信息，当与Jenkins做了持续置成后，趋势（TREND）区域还将显示历次测试的通过情况。
 ​	首页的左边栏，还从不同的维度展示测试报告的其他信息，大家可以自己点进去看看。
 
-#### 6.1 功能（Behaviors）页面
+#### 6.2 功能（Behaviors）页面
 
-![image-20210322210431106](/Users/gilbert/Library/Application Support/typora-user-images/image-20210322210431106.png)
+![image-20210322210431106](https://tva1.sinaimg.cn/large/008eGmZEly1gou46nlbwcj31h80ctadj.jpg)
 
-​	进入Behaviors页面，这个页面按照FEATURES和 STORIES展示测试用例的执行结果
+​	进入功能页面，这个页面按照FEATURES和 STORIES展示测试用例的执行结果
 
-#### 6.2 测试套（Suits）页面
+#### 6.3 测试套（Suits）页面
 
-![image-20210322210549617](/Users/gilbert/Library/Application Support/typora-user-images/image-20210322210549617.png)
+![image-20210322210549617](https://tva1.sinaimg.cn/large/008eGmZEly1gou46oes32j31bf0ejwh0.jpg)
 
 ​	Allure测试报告将每一个测试脚本，作为一个Suite。在首页点击Suites区域下面的任何一条Suite，都将进入Suites页面。这个页面，以脚本的目录结构展示所有测试用例的执行情况。
 
-#### 6.3 图表（Graphs）页面
+#### 6.4 图表（Graphs）页面
 
-![image-20210322210754406](/Users/gilbert/Library/Application Support/typora-user-images/image-20210322210754406.png)
+![image-20210322210754406](https://tva1.sinaimg.cn/large/008eGmZEly1gou46nybbyj31gd0qi40z.jpg)
 
 ​	这个页面展示了本次测试结果的统计信息，比如测试用例执行结果状态、测试用例重要等级分布、测试用例执行时间分布等。
 
-#### 6.4 测试用例详情页
+#### 6.5 测试用例详情页
 
-![image-20210322211505112](/Users/gilbert/Library/Application Support/typora-user-images/image-20210322211505112.png)
+![image-20210322211505112](https://tva1.sinaimg.cn/large/008eGmZEly1gou46ozygjj30o30o376j.jpg)
 
 ​	从这个页面可以看到测试用例执行的每一个步骤，以及每个步骤的执行结果，每一个步骤都可以添加附件，作为重要信息补充。从这里，对于失败的测试用例，可以一目了然看到原因。
