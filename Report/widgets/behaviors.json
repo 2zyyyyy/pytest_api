@@ -1,0 +1,26 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "c215bd035789be90a0cf1d6f9799dee9",
+    "name" : "pytest标记与分组",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "a75539f633fdd544580f8ea12e23b63f",
+    "name" : "Mac软件商店",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}
