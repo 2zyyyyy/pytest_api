@@ -29,89 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f58d1cb5-5d83-4f86-be4d-a455d3fd9d6b" name="Default Changelist" comment="新增测试用例文件及yaml格式测试数据">
-      <change afterPath="$PROJECT_DIR$/allure/2762cab2-515b-44bd-998c-2a29694e3f13-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure/642720cb-ea54-4a51-94f5-17cf08d5aa9e-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+    <list default="true" id="f58d1cb5-5d83-4f86-be4d-a455d3fd9d6b" name="Default Changelist" comment="update:删除数据">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Douban/test_in_theaters.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Douban/test_in_theaters.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/attachments/2e688a859ad2fe5.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/attachments/4c7e5135cd9ffd7d.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/attachments/9763162daa099867.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/categories.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/2bf3438525d28f6e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/561add5d430a722a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/58252791ccea2c22.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/5a2a0496abca6982.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/709bbbbcc27ed090.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/780e3177c19cde4b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/be2d2f6b98f579bc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/e11456bacdbc7a27.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/ea924325f7569ed8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/fb65a5bc5b34c680.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/02dfba96-3562-4895-a53f-e8fcd5cf1805-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/0482ff14-e3ef-4bb0-a59e-3001e3b9e752-attachment.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/0bd07194-aa43-4d88-bb9d-ebcf0da89264-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/106ce6d1-678b-4326-88a6-a08bf01373b7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/114d7627-8ca2-4261-8e93-be1a429741b6-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/156626f2-76b0-4432-9ed1-aa8765607759-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/1a3dad74-55ea-4bc8-9d90-c7b091c3191f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/1d5d10cb-5f62-4828-99c9-03a5e301f886-attachment.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/34bb4c47-26d8-4ded-b8e8-2c96faa92a91-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure/1246a47e-0749-44f1-ba52-5f237ba77601-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/41f3a412-053a-43f1-a474-bf2fec29f9cc-attachment.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/42942643-84d3-4f56-b69f-08b592843a6f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/4de18315-8a97-4003-bc3a-9ecf4993b04b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/62ab044a-9bb7-4c0e-b9e9-ebb3f70a7c85-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/6e25e7c3-eaa2-4e21-a5cb-4a0c19aefe37-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/7f00427b-7585-406e-935c-a49bd147f978-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/a1b9f381-649a-4a32-b359-9915083adb65-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/ab31234c-33fb-4001-b1a2-df482da063f2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/b5c5c94e-ff6e-4a8b-ae5e-ce4c900c7672-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/baffc982-63be-4964-995a-77bbeca34671-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/cd9728c5-e810-4398-b7dc-96844a349367-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/dfd6f633-297d-416e-8f8b-97ae84635a20-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/eb169d79-2a0b-43a1-baa3-9c0ffbb83f94-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/environment.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/f087d9eb-2d1f-48db-b2e9-4f8d861eb954-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Macwk/test_in_macsofts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Macwk/test_in_macsofts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +55,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="033f974d-a40e-42f2-8812-370ac15b427c" />
+  </component>
   <component name="JupyterTrust" id="e2260ea1-0f51-4dc0-99e4-f1468012ee26" />
   <component name="ProjectId" id="1f1TfNuGYzcA1DyBBaQcIKfkJcg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -153,7 +75,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -333,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604373816514</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update:删除数据">
+      <created>1618796132667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618796132668</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +305,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="新增测试用例文件及yaml格式测试数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增测试用例文件及yaml格式测试数据" />
+    <MESSAGE value="update:删除数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:删除数据" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
