@@ -1,0 +1,79 @@
+{
+  "uid" : "a961cdfe1dbc82c3",
+  "name" : "test_skipif",
+  "fullName" : "Tests.MarkDemo.test_marks.TestMarks#test_skipif",
+  "historyId" : "10fc795f3e5a571a3cc5746488bae453",
+  "time" : {
+    "start" : 1618797800759,
+    "stop" : 1618797800759,
+    "duration" : 0
+  },
+  "description" : "\n        低于Python3.7版本不执行这条测试用例\n        ",
+  "descriptionHtml" : "<pre><code>    低于Python3.7版本不执行这条测试用例\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1618797799698,
+      "stop" : 1618797799792,
+      "duration" : 94
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "pytest标记与分组"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(False, reason='requires python3.7 or higher')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests.MarkDemo"
+  }, {
+    "name" : "suite",
+    "value" : "test_marks"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMarks"
+  }, {
+    "name" : "host",
+    "value" : "gilbertdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "54147-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.MarkDemo.test_marks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(False, reason='requires python3.7 or higher')" ]
+  },
+  "source" : "a961cdfe1dbc82c3.json",
+  "parameterValues" : [ ]
+}

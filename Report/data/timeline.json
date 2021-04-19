@@ -1,0 +1,143 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "gilbertdeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "54147-MainThread",
+      "children" : [ {
+        "name" : "test_the_unknow",
+        "uid" : "767bf8c08e625399",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1618797800756,
+          "stop" : 1618797800756,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
+        "uid" : "f237e414394c489e",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618797800524,
+          "stop" : 1618797800748,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证响应中title和language与预期结果一致'", "{'response': {'language': 'en', 'title': 'Bootstrap Studio'}}", "{'method': 'GET', 'path': '/api/items/soft', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'offset': 20, 'limit': 2}}" ]
+      }, {
+        "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
+        "uid" : "5d3b242d5c42dbd6",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618797799795,
+          "stop" : 1618797800180,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'验证响应中title和rate与请求中的参数一致'", "{'response': {'rate': '9.0', 'title': '我不是药神', 'url': 'https://movie.douban.com/subject/26752088/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '电影', 'sort': 'T', 'limit': 2}}" ]
+      }, {
+        "name" : "test_xfail",
+        "uid" : "69f71154228082a9",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1618797800761,
+          "stop" : 1618797800761,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_macsofts_details",
+        "uid" : "7e45bdb712393c92",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618797800751,
+          "stop" : 1618797800751,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xfail_not_run",
+        "uid" : "79501a1b75b16f62",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1618797800769,
+          "stop" : 1618797800769,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_download",
+        "uid" : "afecea574677c209",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1618797800752,
+          "stop" : 1618797800752,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_in_theaters[断言失败测试用例]",
+        "uid" : "c7251e689aa583f0",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618797800185,
+          "stop" : 1618797800459,
+          "duration" : 274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'断言失败测试用例'", "{'response': {'rate': '8.0', 'title': '二十二', 'url': 'https://movie.douban.com/subject/26430107/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '纪录片', 'sort': 'T', 'limit': 2}}" ]
+      }, {
+        "name" : "test_tag",
+        "uid" : "c04be697086307d6",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618797800755,
+          "stop" : 1618797800755,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skipif",
+        "uid" : "a961cdfe1dbc82c3",
+        "parentUid" : "0d7ee79132821f7bb4d802d1dc1c3a06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618797800759,
+          "stop" : 1618797800759,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d7ee79132821f7bb4d802d1dc1c3a06"
+    } ],
+    "uid" : "9b1726522a78d3dfb3dd855a585eeea6"
+  } ]
+}

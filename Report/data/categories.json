@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '8.7' == '8.0'\n  - 8.0\n  + 8.7",
+      "children" : [ {
+        "name" : "test_in_theaters[断言失败测试用例]",
+        "uid" : "c7251e689aa583f0",
+        "parentUid" : "96937bfbd5b151c972c560cccad6d199",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618797800185,
+          "stop" : 1618797800459,
+          "duration" : 274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'断言失败测试用例'", "{'response': {'rate': '8.0', 'title': '二十二', 'url': 'https://movie.douban.com/subject/26430107/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '纪录片', 'sort': 'T', 'limit': 2}}" ]
+      } ],
+      "uid" : "96937bfbd5b151c972c560cccad6d199"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

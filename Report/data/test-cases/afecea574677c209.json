@@ -1,0 +1,82 @@
+{
+  "uid" : "afecea574677c209",
+  "name" : "test_download",
+  "fullName" : "Tests.Macwk.test_in_macsofts.TestInMacsofts#test_download",
+  "historyId" : "4b67fa300d952a4b871b27f3d9780e0f",
+  "time" : {
+    "start" : 1618797800752,
+    "stop" : 1618797800752,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 跳过本次执行",
+  "statusTrace" : "('Tests/Macwk/test_in_macsofts.py', 51, 'Skipped: 跳过本次执行')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1618797799698,
+      "stop" : 1618797799792,
+      "duration" : 94
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Mac软件商店"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='跳过本次执行')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests.Macwk"
+  }, {
+    "name" : "suite",
+    "value" : "test_in_macsofts"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInMacsofts"
+  }, {
+    "name" : "host",
+    "value" : "gilbertdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "54147-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.Macwk.test_in_macsofts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='跳过本次执行')" ]
+  },
+  "source" : "afecea574677c209.json",
+  "parameterValues" : [ ]
+}
