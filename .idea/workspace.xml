@@ -29,48 +29,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f58d1cb5-5d83-4f86-be4d-a455d3fd9d6b" name="Default Changelist" comment="add:重新生成测试报告数据">
-      <change afterPath="$PROJECT_DIR$/Report/data/attachments/1cbdc42a7ceca4ff.attach" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/attachments/1fbb81dc5d1ce187.attach" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/attachments/abd150b2fee34db7.attach" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/124767dd158fe74c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/1b7985382b3b23ca.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/38cd9acdc624dc8f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/3da995d87a3d5fca.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/5227b21931a1f074.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/556fbf83b1cb5b24.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/9dd8454f592ce9f1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/cea6c128277c87c6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/d482f9f29b2f6045.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/data/test-cases/f0f85f701008547a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/attachments/1cd721f9c1480e87.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/attachments/1d3319575708bac9.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/attachments/8d4ef6c8238b9cef.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Report/data/behaviors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/5d3b242d5c42dbd6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/69f71154228082a9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/767bf8c08e625399.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/79501a1b75b16f62.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/7e45bdb712393c92.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/a961cdfe1dbc82c3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/afecea574677c209.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/c04be697086307d6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/c7251e689aa583f0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/test-cases/f237e414394c489e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/Report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/MarkDemo/test_marks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/MarkDemo/test_marks.py" afterDir="false" />
-    </list>
+    <list default="true" id="f58d1cb5-5d83-4f86-be4d-a455d3fd9d6b" name="Default Changelist" comment="add:测试@pytest.mark.skip()的测试用例是否会统计到执行成功率中(no)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618797925954</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add:测试@pytest.mark.skip()的测试用例是否会统计到执行成功率中(no)">
+      <created>1619329719749</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619329719749</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +326,8 @@
     <MESSAGE value="新增测试用例文件及yaml格式测试数据" />
     <MESSAGE value="update:删除数据" />
     <MESSAGE value="add:重新生成测试报告数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:重新生成测试报告数据" />
+    <MESSAGE value="add:测试@pytest.mark.skip()的测试用例是否会统计到执行成功率中(no)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:测试@pytest.mark.skip()的测试用例是否会统计到执行成功率中(no)" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
