@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e45bdb712393c92",
+      "uid" : "1af6668a6a662d75",
       "status" : "passed",
       "time" : {
         "start" : 1618797800751,
@@ -28,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5d3b242d5c42dbd6",
+      "uid" : "fb8446e56a2c1670",
       "status" : "passed",
       "time" : {
         "start" : 1618797799795,
@@ -47,7 +47,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c04be697086307d6",
+      "uid" : "ade17654da2c87bf",
       "status" : "passed",
       "time" : {
         "start" : 1618797800755,
@@ -66,7 +66,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7251e689aa583f0",
+      "uid" : "e7fde8c313841ee9",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert '8.7' == '8.0'\n  - 8.0\n  + 8.7",
       "time" : {
@@ -86,11 +86,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a961cdfe1dbc82c3",
+      "uid" : "a61534a6c270cae8",
       "status" : "passed",
       "time" : {
         "start" : 1618797800759,
         "stop" : 1618797800759,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4b67fa300d952a4b871b27f3d9780e0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b051e0872703175d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过本次执行",
+      "time" : {
+        "start" : 1618797800752,
+        "stop" : 1618797800752,
         "duration" : 0
       }
     } ]
@@ -105,32 +125,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f237e414394c489e",
+      "uid" : "fd5d2cb21bb75241",
       "status" : "passed",
       "time" : {
         "start" : 1618797800524,
         "stop" : 1618797800748,
         "duration" : 224
-      }
-    } ]
-  },
-  "4b67fa300d952a4b871b27f3d9780e0f" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "afecea574677c209",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: 跳过本次执行",
-      "time" : {
-        "start" : 1618797800752,
-        "stop" : 1618797800752,
-        "duration" : 0
       }
     } ]
   },
@@ -144,32 +144,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "767bf8c08e625399",
+      "uid" : "80ace7f2b0c01277",
       "status" : "skipped",
       "statusDetails" : "Skipped: not implementation",
       "time" : {
         "start" : 1618797800756,
         "stop" : 1618797800756,
-        "duration" : 0
-      }
-    } ]
-  },
-  "11d576a43275b207e48a279c611911db" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "79501a1b75b16f62",
-      "status" : "skipped",
-      "statusDetails" : "XFAIL reason: [NOTRUN] \n\n_pytest.outcomes.XFailed: [NOTRUN]",
-      "time" : {
-        "start" : 1618797800769,
-        "stop" : 1618797800769,
         "duration" : 0
       }
     } ]
@@ -184,12 +164,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "69f71154228082a9",
+      "uid" : "98888cc167de4707",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: assert 0",
       "time" : {
         "start" : 1618797800761,
         "stop" : 1618797800761,
+        "duration" : 0
+      }
+    } ]
+  },
+  "11d576a43275b207e48a279c611911db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c766c385733790b",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL reason: [NOTRUN] \n\n_pytest.outcomes.XFailed: [NOTRUN]",
+      "time" : {
+        "start" : 1618797800769,
+        "stop" : 1618797800769,
         "duration" : 0
       }
     } ]

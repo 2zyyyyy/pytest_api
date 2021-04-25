@@ -1,15 +1,15 @@
 {
-  "uid" : "c04be697086307d6",
-  "name" : "test_tag",
-  "fullName" : "Tests.MarkDemo.test_marks.TestMarks#test_tag",
-  "historyId" : "bc809ddd2de0a0e609367e38c4827187",
+  "uid" : "a61534a6c270cae8",
+  "name" : "test_skipif",
+  "fullName" : "Tests.MarkDemo.test_marks.TestMarks#test_skipif",
+  "historyId" : "10fc795f3e5a571a3cc5746488bae453",
   "time" : {
-    "start" : 1618797800755,
-    "stop" : 1618797800755,
+    "start" : 1618797800759,
+    "stop" : 1618797800759,
     "duration" : 0
   },
-  "description" : "\n        自定义标签：tag\n        ",
-  "descriptionHtml" : "<pre><code>    自定义标签：tag\n</code></pre>\n",
+  "description" : "\n        低于Python3.7版本不执行这条测试用例\n        ",
+  "descriptionHtml" : "<pre><code>    低于Python3.7版本不执行这条测试用例\n</code></pre>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -35,7 +35,7 @@
     "value" : "pytest标记与分组"
   }, {
     "name" : "tag",
-    "value" : "tag"
+    "value" : "@pytest.mark.skipif(False, reason='requires python3.7 or higher')"
   }, {
     "name" : "parentSuite",
     "value" : "Tests.MarkDemo"
@@ -72,8 +72,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "tag" ]
+    "tags" : [ "@pytest.mark.skipif(False, reason='requires python3.7 or higher')" ]
   },
-  "source" : "c04be697086307d6.json",
+  "source" : "a61534a6c270cae8.json",
   "parameterValues" : [ ]
 }

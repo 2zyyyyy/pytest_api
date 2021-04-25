@@ -1,15 +1,13 @@
 {
-  "uid" : "a961cdfe1dbc82c3",
-  "name" : "test_skipif",
-  "fullName" : "Tests.MarkDemo.test_marks.TestMarks#test_skipif",
-  "historyId" : "10fc795f3e5a571a3cc5746488bae453",
+  "uid" : "1af6668a6a662d75",
+  "name" : "test_macsofts_details",
+  "fullName" : "Tests.Macwk.test_in_macsofts.TestInMacsofts#test_macsofts_details",
+  "historyId" : "530ef710edb5fab347d2a4c516767d44",
   "time" : {
-    "start" : 1618797800759,
-    "stop" : 1618797800759,
+    "start" : 1618797800751,
+    "stop" : 1618797800751,
     "duration" : 0
   },
-  "description" : "\n        低于Python3.7版本不执行这条测试用例\n        ",
-  "descriptionHtml" : "<pre><code>    低于Python3.7版本不执行这条测试用例\n</code></pre>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -32,19 +30,19 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "pytest标记与分组"
+    "value" : "Mac软件商店"
   }, {
-    "name" : "tag",
-    "value" : "@pytest.mark.skipif(False, reason='requires python3.7 or higher')"
+    "name" : "severity",
+    "value" : "blocker"
   }, {
     "name" : "parentSuite",
-    "value" : "Tests.MarkDemo"
+    "value" : "Tests.Macwk"
   }, {
     "name" : "suite",
-    "value" : "test_marks"
+    "value" : "test_in_macsofts"
   }, {
     "name" : "subSuite",
-    "value" : "TestMarks"
+    "value" : "TestInMacsofts"
   }, {
     "name" : "host",
     "value" : "gilbertdeMacBook-Pro.local"
@@ -59,7 +57,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "Tests.MarkDemo.test_marks"
+    "value" : "Tests.Macwk.test_in_macsofts"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -69,11 +67,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "blocker",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "@pytest.mark.skipif(False, reason='requires python3.7 or higher')" ]
+    "tags" : [ ]
   },
-  "source" : "a961cdfe1dbc82c3.json",
+  "source" : "1af6668a6a662d75.json",
   "parameterValues" : [ ]
 }

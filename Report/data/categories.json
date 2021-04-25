@@ -7,7 +7,7 @@
       "name" : "AssertionError: assert '8.7' == '8.0'\n  - 8.0\n  + 8.7",
       "children" : [ {
         "name" : "test_in_theaters[断言失败测试用例]",
-        "uid" : "c7251e689aa583f0",
+        "uid" : "e7fde8c313841ee9",
         "parentUid" : "96937bfbd5b151c972c560cccad6d199",
         "status" : "failed",
         "time" : {

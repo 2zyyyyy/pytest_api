@@ -1,5 +1,5 @@
 {
-  "uid" : "5d3b242d5c42dbd6",
+  "uid" : "fb8446e56a2c1670",
   "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
   "fullName" : "Tests.Douban.test_in_theaters.TestInTheaters#test_in_theaters",
   "historyId" : "d94cb9ed8367aea42c5919696bb53da7",
@@ -90,6 +90,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5d3b242d5c42dbd6.json",
+  "source" : "fb8446e56a2c1670.json",
   "parameterValues" : [ "'验证响应中title和rate与请求中的参数一致'", "{'response': {'rate': '9.0', 'title': '我不是药神', 'url': 'https://movie.douban.com/subject/26752088/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '电影', 'sort': 'T', 'limit': 2}}" ]
 }

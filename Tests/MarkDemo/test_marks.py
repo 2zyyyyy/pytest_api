@@ -49,3 +49,7 @@ class TestMarks(object):
         run=False表示这条用例不执行
         """
         assert 0
+
+    @pytest.mark.skip(reason="验证跳过的测试用例是否会统计到脚本执行成功率中")
+    def test_success_skip(self):
+        assert 0

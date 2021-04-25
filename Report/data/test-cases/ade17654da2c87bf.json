@@ -1,13 +1,15 @@
 {
-  "uid" : "7e45bdb712393c92",
-  "name" : "test_macsofts_details",
-  "fullName" : "Tests.Macwk.test_in_macsofts.TestInMacsofts#test_macsofts_details",
-  "historyId" : "530ef710edb5fab347d2a4c516767d44",
+  "uid" : "ade17654da2c87bf",
+  "name" : "test_tag",
+  "fullName" : "Tests.MarkDemo.test_marks.TestMarks#test_tag",
+  "historyId" : "bc809ddd2de0a0e609367e38c4827187",
   "time" : {
-    "start" : 1618797800751,
-    "stop" : 1618797800751,
+    "start" : 1618797800755,
+    "stop" : 1618797800755,
     "duration" : 0
   },
+  "description" : "\n        自定义标签：tag\n        ",
+  "descriptionHtml" : "<pre><code>    自定义标签：tag\n</code></pre>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -30,19 +32,19 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Mac软件商店"
+    "value" : "pytest标记与分组"
   }, {
-    "name" : "severity",
-    "value" : "blocker"
+    "name" : "tag",
+    "value" : "tag"
   }, {
     "name" : "parentSuite",
-    "value" : "Tests.Macwk"
+    "value" : "Tests.MarkDemo"
   }, {
     "name" : "suite",
-    "value" : "test_in_macsofts"
+    "value" : "test_marks"
   }, {
     "name" : "subSuite",
-    "value" : "TestInMacsofts"
+    "value" : "TestMarks"
   }, {
     "name" : "host",
     "value" : "gilbertdeMacBook-Pro.local"
@@ -57,7 +59,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "Tests.Macwk.test_in_macsofts"
+    "value" : "Tests.MarkDemo.test_marks"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -67,11 +69,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "blocker",
+    "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "tag" ]
   },
-  "source" : "7e45bdb712393c92.json",
+  "source" : "ade17654da2c87bf.json",
   "parameterValues" : [ ]
 }

@@ -1,5 +1,5 @@
 {
-  "uid" : "afecea574677c209",
+  "uid" : "b051e0872703175d",
   "name" : "test_download",
   "fullName" : "Tests.Macwk.test_in_macsofts.TestInMacsofts#test_download",
   "historyId" : "4b67fa300d952a4b871b27f3d9780e0f",
@@ -77,6 +77,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.skip(reason='跳过本次执行')" ]
   },
-  "source" : "afecea574677c209.json",
+  "source" : "b051e0872703175d.json",
   "parameterValues" : [ ]
 }

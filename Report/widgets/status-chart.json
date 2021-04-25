@@ -1,75 +1,5 @@
 [ {
-  "uid" : "a961cdfe1dbc82c3",
-  "name" : "test_skipif",
-  "time" : {
-    "start" : 1618797800759,
-    "stop" : 1618797800759,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f237e414394c489e",
-  "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
-  "time" : {
-    "start" : 1618797800524,
-    "stop" : 1618797800748,
-    "duration" : 224
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "afecea574677c209",
-  "name" : "test_download",
-  "time" : {
-    "start" : 1618797800752,
-    "stop" : 1618797800752,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "minor"
-}, {
-  "uid" : "767bf8c08e625399",
-  "name" : "test_the_unknow",
-  "time" : {
-    "start" : 1618797800756,
-    "stop" : 1618797800756,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "69f71154228082a9",
-  "name" : "test_xfail",
-  "time" : {
-    "start" : 1618797800761,
-    "stop" : 1618797800761,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "c7251e689aa583f0",
-  "name" : "test_in_theaters[断言失败测试用例]",
-  "time" : {
-    "start" : 1618797800185,
-    "stop" : 1618797800459,
-    "duration" : 274
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "79501a1b75b16f62",
-  "name" : "test_xfail_not_run",
-  "time" : {
-    "start" : 1618797800769,
-    "stop" : 1618797800769,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "c04be697086307d6",
+  "uid" : "ade17654da2c87bf",
   "name" : "test_tag",
   "time" : {
     "start" : 1618797800755,
@@ -79,17 +9,77 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5d3b242d5c42dbd6",
-  "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
+  "uid" : "a61534a6c270cae8",
+  "name" : "test_skipif",
   "time" : {
-    "start" : 1618797799795,
-    "stop" : 1618797800180,
-    "duration" : 385
+    "start" : 1618797800759,
+    "stop" : 1618797800759,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7e45bdb712393c92",
+  "uid" : "8c766c385733790b",
+  "name" : "test_xfail_not_run",
+  "time" : {
+    "start" : 1618797800769,
+    "stop" : 1618797800769,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e7fde8c313841ee9",
+  "name" : "test_in_theaters[断言失败测试用例]",
+  "time" : {
+    "start" : 1618797800185,
+    "stop" : 1618797800459,
+    "duration" : 274
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd5d2cb21bb75241",
+  "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
+  "time" : {
+    "start" : 1618797800524,
+    "stop" : 1618797800748,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98888cc167de4707",
+  "name" : "test_xfail",
+  "time" : {
+    "start" : 1618797800761,
+    "stop" : 1618797800761,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b051e0872703175d",
+  "name" : "test_download",
+  "time" : {
+    "start" : 1618797800752,
+    "stop" : 1618797800752,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "minor"
+}, {
+  "uid" : "80ace7f2b0c01277",
+  "name" : "test_the_unknow",
+  "time" : {
+    "start" : 1618797800756,
+    "stop" : 1618797800756,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1af6668a6a662d75",
   "name" : "test_macsofts_details",
   "time" : {
     "start" : 1618797800751,
@@ -98,4 +88,14 @@
   },
   "status" : "passed",
   "severity" : "blocker"
+}, {
+  "uid" : "fb8446e56a2c1670",
+  "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
+  "time" : {
+    "start" : 1618797799795,
+    "stop" : 1618797800180,
+    "duration" : 385
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

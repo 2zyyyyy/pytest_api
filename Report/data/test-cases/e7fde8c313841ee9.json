@@ -1,5 +1,5 @@
 {
-  "uid" : "c7251e689aa583f0",
+  "uid" : "e7fde8c313841ee9",
   "name" : "test_in_theaters[断言失败测试用例]",
   "fullName" : "Tests.Douban.test_in_theaters.TestInTheaters#test_in_theaters",
   "historyId" : "a4878abb71f2d9924be2757a4999a6d3",
@@ -96,6 +96,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "c7251e689aa583f0.json",
+  "source" : "e7fde8c313841ee9.json",
   "parameterValues" : [ "'断言失败测试用例'", "{'response': {'rate': '8.0', 'title': '二十二', 'url': 'https://movie.douban.com/subject/26430107/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '纪录片', 'sort': 'T', 'limit': 2}}" ]
 }

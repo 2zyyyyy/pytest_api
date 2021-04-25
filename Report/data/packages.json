@@ -7,7 +7,7 @@
       "name" : "Douban.test_in_theaters",
       "children" : [ {
         "name" : "test_in_theaters[验证响应中title和rate与请求中的参数一致]",
-        "uid" : "5d3b242d5c42dbd6",
+        "uid" : "fb8446e56a2c1670",
         "parentUid" : "b546e76731bb72dc9d7afd1086c7b840",
         "status" : "passed",
         "time" : {
@@ -20,7 +20,7 @@
         "parameters" : [ "'验证响应中title和rate与请求中的参数一致'", "{'response': {'rate': '9.0', 'title': '我不是药神', 'url': 'https://movie.douban.com/subject/26752088/'}}", "{'method': 'GET', 'path': '/j/new_search_subjects/', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'tags': '电影', 'sort': 'T', 'limit': 2}}" ]
       }, {
         "name" : "test_in_theaters[断言失败测试用例]",
-        "uid" : "c7251e689aa583f0",
+        "uid" : "e7fde8c313841ee9",
         "parentUid" : "b546e76731bb72dc9d7afd1086c7b840",
         "status" : "failed",
         "time" : {
@@ -37,7 +37,7 @@
       "name" : "Macwk.test_in_macsofts",
       "children" : [ {
         "name" : "test_in_macsofts[验证响应中title和language与预期结果一致]",
-        "uid" : "f237e414394c489e",
+        "uid" : "fd5d2cb21bb75241",
         "parentUid" : "c5a923751777e18f14c1b5d72e04e18e",
         "status" : "passed",
         "time" : {
@@ -50,7 +50,7 @@
         "parameters" : [ "'验证响应中title和language与预期结果一致'", "{'response': {'language': 'en', 'title': 'Bootstrap Studio'}}", "{'method': 'GET', 'path': '/api/items/soft', 'headers': {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}, 'params': {'offset': 20, 'limit': 2}}" ]
       }, {
         "name" : "test_macsofts_details",
-        "uid" : "7e45bdb712393c92",
+        "uid" : "1af6668a6a662d75",
         "parentUid" : "c5a923751777e18f14c1b5d72e04e18e",
         "status" : "passed",
         "time" : {
@@ -63,7 +63,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_download",
-        "uid" : "afecea574677c209",
+        "uid" : "b051e0872703175d",
         "parentUid" : "c5a923751777e18f14c1b5d72e04e18e",
         "status" : "skipped",
         "time" : {
@@ -80,7 +80,7 @@
       "name" : "MarkDemo.test_marks",
       "children" : [ {
         "name" : "test_tag",
-        "uid" : "c04be697086307d6",
+        "uid" : "ade17654da2c87bf",
         "parentUid" : "20b7826c0e0f31f3e2afae31bf381e5e",
         "status" : "passed",
         "time" : {
@@ -93,7 +93,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_the_unknow",
-        "uid" : "767bf8c08e625399",
+        "uid" : "80ace7f2b0c01277",
         "parentUid" : "20b7826c0e0f31f3e2afae31bf381e5e",
         "status" : "skipped",
         "time" : {
@@ -106,7 +106,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_skipif",
-        "uid" : "a961cdfe1dbc82c3",
+        "uid" : "a61534a6c270cae8",
         "parentUid" : "20b7826c0e0f31f3e2afae31bf381e5e",
         "status" : "passed",
         "time" : {
@@ -119,7 +119,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_xfail",
-        "uid" : "69f71154228082a9",
+        "uid" : "98888cc167de4707",
         "parentUid" : "20b7826c0e0f31f3e2afae31bf381e5e",
         "status" : "skipped",
         "time" : {
@@ -132,7 +132,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_xfail_not_run",
-        "uid" : "79501a1b75b16f62",
+        "uid" : "8c766c385733790b",
         "parentUid" : "20b7826c0e0f31f3e2afae31bf381e5e",
         "status" : "skipped",
         "time" : {
