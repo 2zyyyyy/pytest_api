@@ -77,7 +77,7 @@ scandir==1.10.0
 scipy==0.13.0b1
 six==1.12.0
 termcolor==1.1.0
-urllib3==1.26.4
+urllib3==1.26.5
 wcwidth==0.2.5
 xattr==0.6.4
 zipp==1.2.0
