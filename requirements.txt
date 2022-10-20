@@ -71,7 +71,7 @@ pytest-progress==1.2.2
 pytest-sugar==0.9.4
 python-dateutil==1.5
 pytz==2013.7
-PyYAML==5.3.1
+PyYAML==5.4
 requests==2.25.1
 scandir==1.10.0
 scipy==0.13.0b1
