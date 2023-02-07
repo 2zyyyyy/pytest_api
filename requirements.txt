@@ -10,7 +10,7 @@ cffi==1.14.3
 chardet==4.0.0
 configparser==4.0.2
 contextlib2==0.6.0.post1
-cryptography==2.6.1
+cryptography==39.0.1
 enum34==1.1.6
 funcsigs==1.0.2
 future==0.17.1
